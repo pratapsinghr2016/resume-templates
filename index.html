@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/398fbec52b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Resume</title>
+  </head>
+  <style>
+    * {
+      color: rgb(184, 167, 149);
+      font-family: "Raleway";
+    }
+    nav {
+      background-color: rgb(12, 56, 96);
+      padding: 2px;
+      height: 145px;
+      text-align: center;
+      line-height: 10px;
+    }
+    .my-name {
+      font-weight: bolder;
+      font-size: 40px;
+    }
+    .under-my-name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .under-my-name > h2 {
+      font-size: 20px;
+    }
+    .under-my-name > small {
+      margin-left: 8px;
+      font-weight: 580;
+    }
+    .body {
+      background-color: white;
+    }
+    .container {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.959);
+      border-left: 1px solid rgb(243, 241, 241);
+      border-right: 1px solid rgb(243, 241, 241);
+      border-bottom: 1px solid rgb(243, 241, 241);
+      padding: 14mm 14mm 3mm;
+    }
+    .left {
+      flex: 1;
+      border-right: 1px solid rgb(184, 167, 149);
+      padding-right: 5mm;
+    }
+    .right {
+      flex: 3;
+      border-left: 1px solid rgb(184, 167, 149);
+      padding-left: 5mm;
+    }
+    .contact {
+      align-items: center;
+    }
+    .contact > span {
+      position: relative;
+      display: inline-block;
+      width: 2em;
+      height: 2em;
+      line-height: 2em;
+      vertical-align: middle;
+      align-items: center;
+    }
+    .hr-contacts {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .contact-bkg {
+      position: relative;
+    }
+
+    .heading {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .text {
+      line-height: 1.8;
+      font-family: Arial !important;
+      color: rgb(63, 62, 62);
+      font-size: 13px !important;
+    }
+    .hr-stream {
+      border-top: 1px dashed;
+    }
+    .left-small {
+      background-color: rgb(184, 167, 149);
+      color: rgba(255, 255, 255, 0.959);
+      padding: 5px;
+      font-weight: bolder;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .right-col {
+    }
+    .subheading-container {
+      display: flex;
+    }
+    .subheading {
+      flex: 4;
+      font-weight: bolder;
+      font-family: Arial !important;
+      font-size: 14px !important;
+    }
+    .subheading-opp {
+      flex: 1;
+    }
+  </style>
+  <body>
+    <nav>
+      <h1 class="my-name">RAJAT PRATAP SINGH</h1>
+      <div class="under-my-name">
+        <h2>Software Engineer</h2>
+        <small>(Since: 2 years & 8 months)</small>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="left">
+        <div style="line-height: 2em">
+          <div class="contact">
+            <span>
+              <i class="fa fa-circle fa-stack-2x contact-bkg"></i>
+              <i class="fa fa-phone fa-stack-1x fa-inverse contact-phone"></i>
+            </span>
+            <span
+              style="
+                font-family: Open Sans !important;
+                margin-left: 22px;
+                font-size: 18px;
+              "
+              >(+91)9877411556</span
+            >
+          </div>
+          <div class="contact">
+            <span>
+              <i class="fa fa-circle fa-stack-2x contact-bkg"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+            <span
+              style="
+                font-family: Open Sans !important;
+                margin-left: 22px;
+                font-size: 18px;
+              "
+              >pratapsinghr2016@gmail.com</span
+            >
+          </div>
+          <div class="contact">
+            <span>
+              <i class="fa fa-circle fa-stack-2x contact-bkg"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+            <a
+              href="https://www.linkedin.com/in/rajat-pratap-singh-714b82116/"
+              target="_blank"
+              style="
+                font-family: Open Sans !important;
+                margin-left: 22px;
+                font-size: 18px;
+                text-decoration: none;
+              "
+            >
+              www.linkedin.com/rajat-pratap-singh
+            </a>
+          </div>
+          <div class="contact">
+            <span>
+              <i class="fa fa-circle fa-stack-2x contact-bkg"></i>
+              <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+            </span>
+            <a
+              href="https://rajatpratap.github.io/personal-website/"
+              target="_blank"
+              style="
+                font-family: Open Sans !important;
+                margin-left: 22px;
+                font-size: 18px;
+                text-decoration: none;
+              "
+            >
+              www.rajatpratap/personal-website
+            </a>
+          </div>
+        </div>
+        <hr class="hr-contacts" />
+        <div style="line-height: 2em">
+          <div class="contact">
+            <h2 class="heading">SUMMARY</h2>
+          </div>
+          <span class="text">
+            I'm a software engineer, who is always open to new challenges and
+            experinces because I belive in evolution and finding a better
+            version of myself so that whatever project or technology I work upon
+            must benifit the human society in some or the other way. Uptill now
+            my expertise is with JavaScript and its libraries (React,
+            React-Native & Node) because its amazing to see that only one
+            language can help us to solve problem either from Web interface or
+            Mobile interface or even from server side too.
+          </span>
+        </div>
+        <hr class="hr-contacts" />
+        <div style="line-height: 2em">
+          <div class="contact">
+            <h2 class="heading">KEY SKILLS</h2>
+          </div>
+          <div>
+            <small class="left-small">Frontend</small>
+            <span class="text" style="font-weight: bolder; margin-left: 8px">
+              • JavaScript • React-JS • React-Native • HTML5 • CSS-3 •
+              Material-UI • Ant-Design • JSS • LESS
+            </span>
+          </div>
+          <div style="margin-top: 25px">
+            <small class="left-small">Backend</small>
+            <span class="text" style="font-weight: bolder; margin-left: 8px">
+              • Node-JS • Express-JS
+            </span>
+          </div>
+          <div style="margin-top: 25px">
+            <small class="left-small">Database, API & Management</small>
+            <span class="text" style="font-weight: bolder; margin-left: 8px">
+              • SQL • NoSQL (MongoDB) • REST • GraphQL • Yarn • NPM • GIT •
+              Webpack
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-col">
+          <h2 class="heading">PROFESSIONAL EXPERIENCE</h2>
+          <!-- START -->
+          <div class="subheading-container">
+            <span class="text subheading">Software Engineer</span>
+            <span class="text subheading-opp">Jan '2020 - Present</span>
+          </div>
+          <a
+            class="text"
+            href="https://skillr.ai/"
+            target="_blank"
+            style="
+              border-right: 1px solid rgb(173, 150, 124);
+              padding-right: 6px;
+            "
+          >
+            Skillr Technologies Pvt. Ltd.
+          </a>
+          <span
+            class="text"
+            style="
+              border-left: 1px solid rgb(173, 150, 124);
+              padding-left: 12px;
+            "
+          >
+            Banglore, India </span
+          ><br />
+          <span
+            class="text"
+            style="font-style: italic; font-size: 12px !important"
+          >
+            Skillr is a product based organization which has its focus on
+            developing an intelligent hiring interface so that a deserving
+            candidate should be able get the job as per his or her skill set.
+            Here we have used the scoring system according to human behavior and
+            the soft-skills
+          </span>
+          <!-- COMPANY INFO -->
+          <div style="display: inline-block">
+            <h4
+              class="text subheading"
+              style="
+                font-size: 13px !important;
+                display: inline-block;
+                height: 2px;
+                font-weight: bolder;
+              "
+            >
+              • Role:
+            </h4>
+            <span
+              class="text"
+              style="line-height: 1mm !important; margin-left: 4px"
+            >
+              My role significantly comprised of responsibilities for front-end
+              technologies, where I have to manage the scalability, readability
+              & modularity of code base so that other folks in an organization
+              working upon the same project may easily contribute to it and we
+              may meet deadlines on time. If needed my contribution was also in
+              back-end too from time to time as my previous knowledge was of a
+              full-stack developer.
+            </span>
+          </div>
+          <div style="display: inline-block">
+            <h4
+              class="text subheading"
+              style="
+                font-size: 13px !important;
+                display: inline-block;
+                height: 2px;
+                font-weight: bolder;
+              "
+            >
+              • Techs worked upon:
+            </h4>
+            <span
+              class="text"
+              style="line-height: 1mm !important; margin-left: 4px"
+            >
+              I've worked upon React-JS, JavaScript, HTML-5, CSS, Material-UI,
+              JSS and some of the analytical libraries like ChartJS, Victory-JS,
+              Highcharts on frontend which were bundeled by Webpack and the
+              application performs its communication by GraphQL to the back-end
+              developed in Node-JS which was supported by SQL database.
+            </span>
+          </div>
+          <div style="display: inline-block">
+            <h4
+              class="text subheading"
+              style="
+                font-size: 13px !important;
+                display: inline-block;
+                height: 2px;
+                font-weight: bolder;
+              "
+            >
+              • Milestone Achieved:
+            </h4>
+            <span
+              class="text"
+              style="line-height: 1mm !important; margin-left: 4px"
+            >
+              Learnt to handle the pressurising situation with no compromise in
+              quality by supporting the teammates using all my knowledge in
+              technical and managerial zone with an attitude to "Never Quit" &
+              being always open to constructive criticism and other's ideas.
+            </span>
+          </div>
+          <!-- END -->
+
+          <hr />
+          <!-- START -->
+          <div style="padding-top: 15px">
+            <div class="subheading-container">
+              <span class="text subheading">Software Engineer</span>
+              <span class="text subheading-opp">Mar '2019 - Jan '2020</span>
+            </div>
+            <a
+              class="text"
+              href="https://www.linkedin.com/company/avish-websoft-pvt-ltd-/?originalSubdomain=in"
+              target="_blank"
+              style="
+                border-right: 1px solid rgb(173, 150, 124);
+                padding-right: 6px;
+              "
+            >
+              Avish Websoft Pvt. Ltd.
+            </a>
+            <span
+              class="text"
+              style="
+                border-left: 1px solid rgb(173, 150, 124);
+                padding-left: 12px;
+              "
+            >
+              Banglore, India </span
+            ><br />
+            <span
+              class="text"
+              style="font-style: italic; font-size: 12px !important"
+            >
+              Its a product/service based organization which majorly behaves
+              like a web agency for providing any technical support in the form
+              of Website, Webapp or Mobile app or even Headless - CMS by usage
+              of latest technologies and philospohies & architechture like
+              microserservice and monolith code base.
+            </span>
+            <!-- COMPANY INFO -->
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Role:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                I've worked here as a full-stack developer handling
+                responsibilities to manage, develop and scale any assigned
+                product to the organization. Here most of the back-end work was
+                handled by headless-CMS like DirectUS & Strapi which stood upon
+                either on MySQL or MongoDB as per product requirement.
+              </span>
+            </div>
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Techs worked upon:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                For front-end we've used React-JS, React-Native, Ant-Design,
+                JavaScript, HTML-5, CSS-3, LESS, Redux-saga, Dva.js. For
+                back-end headless-CMS like DirectUS and Strapi based on Node-JS
+                were used to communicate via REST or GraphQL, where database
+                were either in MongoDB or SQL.
+              </span>
+            </div>
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Milestone Achieved:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                Here mostly the revenue of an organization depends on how fast
+                the services were provided hence I've developed 3 libraries
+                which enhanced the development speed by 50%, hence let
+                organization have a profitable environment for itself & I've
+                also learnt how to use 3rd party assistance to increase speed
+                without increasing the bundle size of the end product by
+                following mechanism like Tree-shaking algorithm, dynamic loading
+                & lazy-loading without ignoring bundle size analysis on each
+                deployment.
+              </span>
+            </div>
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Industrial Projects:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                <a
+                  href="http://staging.mypeegu.com:8000/account/login"
+                  target="_blank"
+                  >MyPeegu</a
+                >
+                <a
+                  style="margin-left: 5px; margin-right: right 5px"
+                  href="https://hundred.org/en/innovations/anytime-clap-talk#c177dc9a"
+                  target="_blank"
+                  >Anytime Clap Talk</a
+                >
+                <a
+                  style="margin-left: 5px; margin-right: right 5px"
+                  href="http://www.mypeegu.com/home.php"
+                  target="_blank"
+                  >Clinic Insights</a
+                >
+              </span>
+            </div>
+          </div>
+          <!-- END -->
+        </div>
+        <div class="right-col">
+          <div style="padding-top: 25px">
+            <h2 class="heading">EDUCATION</h2>
+            <div class="subheading-container">
+              <span class="text subheading"> Bachelor in Technologies </span>
+              <span class="text subheading-opp">Mar '2014 - Jan '2019</span>
+            </div>
+            <span
+              class="text"
+              style="
+                border-right: 1px solid rgb(173, 150, 124);
+                padding-right: 12px;
+              "
+            >
+              Computer Science Engineering
+            </span>
+            <a
+              class="text"
+              href="https://skillr.ai/"
+              target="_blank"
+              style="
+                border-left: 1px solid rgb(173, 150, 124);
+                border-right: 1px solid rgb(173, 150, 124);
+                padding-left: 12px;
+                padding-right: 6px;
+              "
+            >
+              Lovely Professional University
+            </a>
+            <span
+              class="text"
+              style="
+                border-left: 1px solid rgb(173, 150, 124);
+                padding-left: 12px;
+              "
+            >
+              Punjab, India </span
+            ><br />
+            <span
+              class="text"
+              style="font-style: italic; font-size: 12px !important"
+            >
+              I've done my full-time graduation under the stream of Computer
+              Science Engineering from Lovely Professional University which has
+              given me exposure to computer languages and soft-skills required
+              in corperate environment. </span
+            ><br />
+            <!-- COMPANY INFO -->
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • CGPA:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                7.1 / 10
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="right-col">
+          <div style="padding-top: 20px">
+            <h2 class="heading">ADDITIONAL INFORMATION</h2>
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Hobbies & Intrests:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                Open source contribution, Blogging, Content Writing, Teaching
+              </span>
+            </div>
+            <br />
+            <div style="display: inline-block">
+              <h4
+                class="text subheading"
+                style="
+                  font-size: 13px !important;
+                  display: inline-block;
+                  height: 2px;
+                  font-weight: bolder;
+                "
+              >
+                • Langugage:
+              </h4>
+              <span
+                class="text"
+                style="line-height: 1mm !important; margin-left: 4px"
+              >
+                English, Hindi
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
